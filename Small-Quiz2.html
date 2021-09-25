@@ -1,0 +1,100 @@
+<!--CPIT-405 - HTML Assignment-->
+<!--Talal Baghubar - 1845009-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Small Quiz</title>
+
+    <style>
+      .sub:hover {
+        border-color: blue;
+        size: 11px;
+      }
+      .list {
+        list-style-type: none;
+      }
+
+      .list li:before {
+        content: "-";
+        margin-left: -20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Which one of the Following are showing in the image below:</h1>
+    <ul class="list">
+      <li>ul tags</li>
+      <li>Merged Cells</li>
+      <li>Radio buttons</li>
+      <li>Sub and Sup tags</li>
+    </ul>
+    <br />
+
+    <table border="4">
+      <tr>
+        <td title="Sub and Sup Tags" class="sub">
+          <h1>The Following Equations is:</h1>
+          <br />
+          <center>
+            X<sub>1</sub> + X<sub>1</sub>=2X<sub>1</sub> <br /><br />
+            X * X = X<sup>2</sup>
+          </center>
+          <br />
+        </td>
+
+        <td title="ul tags">
+          <h1>My Favorite Drinks:</h1>
+          <ul>
+              <br>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td title="radio buttons">
+          <h1>Look at the Following</h1>
+          <p>
+              Please select you Gender: <br>
+              <input type="radio" name="Gender" > <label for="Gender">Male</label> <br>
+              <input type="radio" name="Gender" > <label for="Gender">Female</label> <br>
+              <input type="radio" name="Gender" > <label for="Gender">Other</label> 
+
+              <br>
+
+              <p>Please Select your Age:</p>
+              <input type="radio" name="age" > <label for="age">0 - 30</label> <br>
+              <input type="radio" name="age" > <label for="age">31-60</label> <br>
+              <input type="radio" name="age" > <label for="age">61-100</label> 
+          </p>
+        </td>
+        <td title="Merged Cells">
+          <table border="4">
+              <tr>
+                  <th>Month</th>
+                  <th>Savings</th>
+                  <th>Savings for Holiday!</th>
+              </tr>
+              <tr>
+                 <td>January</td>
+                 <td>$100</td>
+                 <td rowspan="2">$100</td>
+              </tr>
+              <tr>
+                  <td>February</td>
+                  <td>$80</td>
+              </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <a href="homework.html">Go Back to Your Homework Web Page</a>
+  </body>
+</html>
