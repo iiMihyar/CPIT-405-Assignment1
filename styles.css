@@ -1,0 +1,238 @@
+* {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#rotRancid {
+  position: absolute;
+  z-index: 1;
+  width: 99%;
+  height: 10%;
+  margin-right: 10px;
+}
+
+#ksaFlag {
+  position: absolute;
+  z-index: 2;
+  height: 10%;
+  margin-left: 36%;
+  width: 26%;
+}
+
+#bgRancid {
+  position: absolute;
+  z-index: 3;
+  margin-left: 60%;
+  padding-top: 25px;
+  width: 25%;
+  height: 5%;
+}
+
+body > h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#greenBgInBody {
+  margin-left: 25%;
+  width: 33%;
+  height: 125px;
+  position: absolute;
+  z-index: 2;
+}
+
+#flagsInBody {
+  position: absolute;
+  z-index: 2;
+  height: 125px;
+  margin-left: 25%;
+}
+
+.bgwithGreen h1 {
+  color: red;
+  font-size: 35px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 47%;
+  padding-top: 23px;
+}
+
+#bgKings {
+  position: absolute;
+  z-index: 1;
+  margin-left: 58%;
+  width: 20%;
+  height: 190%;
+}
+
+#Kingsphoto {
+  position: absolute;
+  z-index: 2;
+  margin-left: 58%;
+  width: 20%;
+}
+
+.kingsPhotoSections h5,
+.kingsPhotoSections br,
+.kingsPhotoSections .linksList li,
+.kingsPhotoSections p {
+  position: absolute;
+  z-index: 2;
+  margin-left: 58%;
+  padding-top: 11%;
+}
+
+.reviews .reviewComments #reviewComments1 {
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin-top: 10%;
+  margin-left: 26%;
+  width: 31%;
+  height: 100px;
+}
+
+.reviews .reviewComments #reviewComments1 pre {
+  font-family: "Times New Roman";
+  font-size: 17px;
+}
+
+.reviews .reviewComments #reviewComments2 {
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin-top: 20%;
+  margin-left: 26%;
+  width: 31%;
+  height: 100px;
+}
+
+.reviews .reviewComments #reviewComments2 pre {
+  font-family: "Times New Roman";
+  font-size: 17px;
+}
+
+.reviews .reviewComments #reviewComments3 {
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin-top: 30%;
+  margin-left: 26%;
+  width: 31%;
+  height: 100px;
+}
+
+.reviews .reviewComments #reviewComments3 pre {
+  font-family: "Times New Roman";
+  font-size: 17px;
+}
+
+.reviews .reviewComments #reviewComments4 {
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin-top: 40%;
+  margin-left: 26%;
+  width: 31%;
+  height: 100px;
+}
+
+.reviews .reviewComments #reviewComments4 pre {
+  font-family: "Times New Roman";
+  font-size: 16px;
+}
+
+.reviews .reviewComments #reviewComments5 {
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin-top: 50%;
+  margin-left: 26%;
+  width: 31%;
+  height: 100px;
+}
+
+.reviews .reviewComments #reviewComments5 pre {
+  font-family: "Times New Roman";
+  font-size: 17px;
+}
+
+.reviews .reviewComments #reviewComments6 {
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin-top: 60%;
+  margin-left: 26%;
+  width: 31%;
+  height: 100px;
+}
+
+.reviews .reviewComments #reviewComments6 pre {
+  font-family: "Times New Roman";
+  font-size: 17px;
+}
+
+.reviews .reviewComments #reviewComments7 {
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin-top: 70%;
+  margin-left: 26%;
+  width: 31%;
+  height: 100px;
+}
+
+.reviews .reviewComments #reviewComments7 pre {
+  font-family: "Times New Roman";
+  font-size: 17px;
+}
+
+.reviews .reviewComments #reviewComments8 {
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin-top: 80%;
+  margin-left: 26%;
+  width: 31%;
+  height: 100px;
+}
+
+.reviews .reviewComments #reviewComments8 pre {
+  font-family: "Times New Roman";
+  font-size: 17px;
+}
+
+.reviews .reviewComments #reviewComments9 {
+  position: absolute;
+  z-index: 3;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin-top: 90%;
+  margin-left: 26%;
+  width: 31%;
+  height: 100px;
+}
+
+.reviews .reviewComments #reviewComments9 pre {
+  font-family: "Times New Roman";
+  font-size: 17px;
+}
+
+footer p {
+  background-color: grey;
+  margin-top: 68%;
+  text-align: center;
+  margin-left: 26%;
+  margin-right: 21%;
+  font-weight:  bold;
+  font-size: 17px;
+}
